@@ -1,40 +1,40 @@
 {
   "name": "java",
   "description": "Bridge API to connect with existing Java APIs.",
-  "author": "Joe Ferner <joe@fernsroth.com>",
+  "author": "Marco Knol <littlegnomenv@gmail.com>",
   "keywords": [
     "java",
     "jvm",
     "bridge"
   ],
-  "version": "0.14.0",
+  "version": "0.15.0",
   "engines": {
     "node": ">=7.0.0"
   },
   "maintainers": [
     {
-      "name": "Joe Ferner",
-      "email": "joe@fernsroth.com"
+      "name": "Marco Knol",
+      "email": "littlegnomenv@gmail.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/joeferner/node-java/issues"
+    "url": "https://github.com/LittleGnome/node-java/issues"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joeferner/node-java.git"
+    "url": "https://github.com/LittleGnome/node-java.git"
   },
   "dependencies": {
     "async": "^3.2.5",
     "find-java-home": "^2.0.0",
     "glob": "^10.3.10",
-    "nan": "^2.18.0",
+    "nan": "^2.22.2",
     "node-gyp": "^10.0.1"
   },
   "devDependencies": {
     "chalk": "2.4.1",
-    "nodeunit": "0.11.3",
+    "nodeunit": "^0.11.3",
     "when": "3.7.8"
   },
   "scripts": {
