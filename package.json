@@ -1,5 +1,5 @@
 {
-  "name": "java",
+  "name": "remia-node-java",
   "description": "Bridge API to connect with existing Java APIs.",
   "author": "Marco Knol <littlegnomenv@gmail.com>",
   "keywords": [
